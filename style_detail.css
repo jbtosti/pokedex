@@ -1,0 +1,92 @@
+.menu-title {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  line-height: 1;
+  font-size: 80px;
+  text-align: center;
+}
+
+.menu-bar {
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 60px;
+  flex-wrap: wrap;
+  font-size: large;
+  height: 60px;
+  font-size: 30px;
+}
+
+body {
+  background-color: rgb(188, 37, 37);
+}
+
+.pokemon-card {
+  background-color: #ff4040;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pokemon-card .stats {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.pokemon-card .stat {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pokemon-card .stat-name {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.pokemon-card .stat-value {
+  color: white;
+  font-weight: bold;
+}
+
+.return-link {
+  text-align: center;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+.stat-label {
+  margin-top: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.stat-bar {
+  height: 20px;
+  background-color: #eee;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  float: right;
+  color: white;
+}
+
+.stat-bar-inner {
+  height: 100%;
+  background-color: #ccc;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
+}
